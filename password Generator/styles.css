@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgb(255, 107, 107);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.output {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#password {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  background-color: blanchedalmond;
+}
+
+.controls label {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+#generate {
+  padding: 10px;
+  width: 100%;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#generate:hover {
+  background: #45a049;
+}
